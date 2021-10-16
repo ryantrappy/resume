@@ -1,0 +1,166 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage[warn]{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+%\documentclass[10pt]{•}
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Ryan Trapp}}\\
+	Edina, MN $\cdot$ ryantrapp@live.com $\cdot$ (612) 803-8062 $\cdot$ ryantr.app\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Colorado Technical University}\\
+Masters Computer Science - Software Engineering \hfill Oct 2019 - Mar 2021\\
+\vspace{2mm}
+\textbf{University of St. Thomas}\hfill St. Paul, MN\\
+B.A. Computer Science and Biology \hfill Sept 2013 - Dec 2017\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Optum United Fraud, Waste, Abuse and Error} \hfill MN\\
+\textit{Senior Software Engineer} \hfill Sept 2020 - Current\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked as a full stack developer on React projects related to managing fraud, waste, error and abuse in insurance claims
+	\item Led creation of internal React component library that was used by division of eight plus teams of developers
+	\item Took over Open ID server client open source project that was used for NextJS applications and had been abandoned by developer who had left company. Investigated library's source code and fixed security holes that had been present since library's creation.
+	\item Implemented novel authentication method that seamlessly integrated legacy project with new micro front end that passed all audits from internal and external security teams.
+	\item Created pipelines using Jenkins that deployed to Kubernetes and Azure to facilitate zero downtime deployments. 
+
+\end{itemize}
+
+\textbf{Medtronic Care Management Services} \hfill MN\\
+\textit{Software Developer} \hfill Jan 2018 - Sept. 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked as a full stack developer on a variety of projects all centered around improving outcomes of chronic, complex, comorbid patients.
+	\item Created HIPAA compliant patient monitoring application for Android using Java and Kotlin. Led the creation of the microservice backend from scratch that drives the application using NodeJS and MongoDB. Used AWS as a hosting environment as well as a variety of other functionalities. Created web portals using Angular to manage the platform. Used WebRTC to create HIPAA compliant video chat application for clinicians and patients.
+	\item Created modular rules engine designed to be utilized by non-technical clinicians to evaluate patient data and suggest actions in a monitoring application.
+	\item Created CICD pipelines using Gitlab, Jenkins, Artifactory, Puppet, and Octopus.
+	\item Designed and implemented chatbot application to facilitate triage of patients with COVID-19 concerns. Worked at unprecedented rate in Medtronic to develop and release application within two-week time frame in order to meet unprecedented patient demand.
+	\item Worked with Amazon Cognito to integrate SAML based authentication via oAuth2.0. Integrated this authentication with Microsoft Active Directory to create a seamless authentication process for users.
+\end{itemize}
+\textbf{Praxik LLC.} \hfill MN\\
+\textit{Cross Platform Developer} \hfill Nov 2016 - Dec 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Created health coaching application for Android, iOS, and web platforms using AngularJS and Ionic. Took direction from leadership team, designed the project plan, have led the development team and testing of the application for the past year. Utilized Google Firebase and Medable to store data in a non-relational way.
+\end{itemize}
+\textbf{Optum} \hfill MN\\
+\textit{Technology Development Program Intern} \hfill June 2016 - Sept 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Interned at UnitedHealth Group under Optum Technology for two summers as part of their Technology Development Program.
+	\item First Summer – Optum outsourced my work to UnitedHealthcare, where I assisted with migrating Military and Veterans migration to Adobe Experience Manager. I oversaw the creation of the pages and created a workflow in order to ensure pages were created correctly.
+	\item Second Summer – Part of research and development team that developed iOS applications in swift. We used various NLP engines and bot platforms to create an omnichannel experience. Also created a bot observation platform for agents to manage multiple bot conversations, which won a company-wide hackathon and presented solution to CEO of UnitedHealth Group as a possible tech to look out for at leadership conference.
+\end{itemize}
+\textbf{University of St. Thomas} \hfill MN\\
+\textit{Research Assistant} \hfill Sept 2013 - Sept 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Collaborating with the DNR and a St Thomas faculty advisor and a small research team to quantify the effects of Zebra Mussels on Minnesota lakes through the use of stable isotopes and mixing models to compare two lakes at different stages of infestation. Paper currently in final stages of publication and presented findings at Ecological Society of America in Florida in 2016. Worked on two additional studies with DNR. One that quantifies the niche ecology of game fish in Minnesota and another that studies the effects of global warming and eutrophication on cisco. This work was published in the Journal of Freshwater Ecology.
+\end{itemize}
+\textbf{University of St. Thomas} \hfill MN\\
+\textit{Computer Science and Statistics Tutor} \hfill Sept 2014 - Sept 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item I excelled in both computer science and statistics classes, so my professor recommended me for a tutoring position. This allowed me an opportunity to gain additional insight into various computer languages. It also provided an opportunity to communicate this knowledge to students in way that allows them to understand the subject matter.
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Web Development:                    & Angular, NodeJS , .NET, WebRTC, Typescript, React, Piral, 
+\\
+	Native Android Applications:        & Created Android applications using Java and Kotlin                                                                                                \\
+	Native iOS Applications:            & Used Swift to create a native iOS application                                                                                                     \\
+	AWS:                                & Lambda, API Gateway, Cloudfront, Codepipeline, Cloudwatch, Cognito                                                          \\
+	NLP Platforms:                      & Have used various NLP platforms in health care settings 
+\\
+	Agile Methodologies: 				& Ability to communicate with business in Agile environments
+\\
+	Leadership:                         & Gravitate towards leadership roles in teams 
+\\
+\end{tabular}
+\vspace{2mm}
+
+\header{Personal Projects}
+\begin{tabular}{p{0.35\linewidth}  p{0.6\linewidth}}
+    Fantasy Football Api:       & Created API that can be used to get information on both ESPN and Sleeper fantasy football leagues with authentication.
+    \\  \\
+     Power Rankings Generator:   & Created React website that utilizes the Fantasy Football Api I created to generate power rankings for fantasy football leagues.
+    \\
+\end{tabular}
+\ 
+\end{document}
