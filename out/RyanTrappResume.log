@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.14)  16 OCT 2021 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.14)  26 OCT 2021 12:35
 entering extended mode
-**./resume1.tex
-(resume1.tex
+**./RyanTrappResume.tex
+(RyanTrappResume.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
 (C:\Users\ryant\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -109,8 +109,8 @@ tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count268
 \l__pdf_internal_box=\box52
-) (resume1.aux)
-\openout1 = `resume1.aux'.
+) (C:/Users\ryant\WebstormProjects\resume\out\RyanTrappResume.aux)
+\openout1 = `RyanTrappResume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -145,26 +145,28 @@ Overfull \hbox (14.43774pt too wide) in paragraph at lines 143--157
 [][] 
  []
 
-[2] (resume1.aux) ) 
+[2] (C:/Users\ryant\WebstormProjects\resume\out\RyanTrappResume.aux) ) 
 Here is how much of TeX's memory you used:
- 1857 strings out of 478927
- 23826 string characters out of 2852534
- 323758 words of memory out of 3000000
+ 1858 strings out of 478927
+ 24173 string characters out of 2852534
+ 323774 words of memory out of 3000000
  19742 multiletter control sequences out of 15000+600000
  409811 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,6n,66p,672b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecti1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\font
-s/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\ryant\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ryant\AppData\Local
-\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk><C:/Users/ryant/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume1.pdf (2 pages, 70397 bytes).
+ 56i,6n,66p,680b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\User
+s\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C
+:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.
+pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+x1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\eccc1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecrm1000.pk> <C:\Users\ryant\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\eccc2488.pk><C:/Users/ryant/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on C:/Users\ryant\WebstormProjects\resume\out\RyanTrappResume.pd
+f (2 pages, 70939 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
+ 200 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
