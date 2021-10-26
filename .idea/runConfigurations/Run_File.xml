@@ -10,7 +10,7 @@
       <envs />
       <main-file>$PROJECT_DIR$/resume1.tex</main-file>
       <output-path>$PROJECT_DIR$/out</output-path>
-      <auxil-path>{projectDir}/out</auxil-path>
+      <auxil-path>$PROJECT_DIR$/out</auxil-path>
       <compile-twice>false</compile-twice>
       <output-format>PDF</output-format>
       <latex-distribution>MIKTEX</latex-distribution>
